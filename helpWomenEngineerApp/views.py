@@ -12,7 +12,6 @@ class HomePageView(TemplateView):
     def get(self, request, **kwargs):
         return render(request, 'index.html', context=None)
 
-# Data views with dummy data; change to reddit data.
 class ListJSON(generics.ListCreateAPIView):
 	queryset = StigmasFromReddit.objects.all()
 	serializer_class = dataSerializer
