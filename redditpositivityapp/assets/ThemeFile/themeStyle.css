@@ -1,0 +1,90 @@
+.appBar {
+  background-color: #4FC3F7;
+  height:48px;
+  margin-left: 250px;
+}
+
+.appBarTabs{
+	margin-right:50px;
+}
+
+.appBarSingTab{
+	color:white;
+	font-family: 'Merriweather', serif;
+}
+
+.sidebar{
+	height: 100%; /* 100% Full-height */
+    width: 250px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #E1F5FE;
+}
+
+.lineDivClicked{
+	width: 250px;
+	height: 85px;
+	border-bottom: 1px solid #9E9E9E;
+	background-color: #FFB74D;
+	position: relative;
+	float:left;
+	top: 0px;
+}
+
+.lineDivNotClicked{
+	width: 250px;
+	height: 85px;
+	border-bottom: 1px solid #9E9E9E;
+	background-color: #4fc3f7;
+	position: relative;
+	float:left;
+	top: 0px;	
+}
+
+.NameSideNav{
+	margin-top: 38px;
+	font-size: 15px;
+	margin-left: 8px;
+	color:#FFFFFF;
+	font-family: 'Merriweather', serif;
+}
+
+.sideImage{
+	float:right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.linkNotLikeLink{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.menuHeader{
+	font-size:21px;
+	height:45px;
+	color:#FFFFFF;
+	font-family: 'Merriweather', serif;
+	text-align:left;
+	margin-top:55px;
+	margin-left:10px;
+}
+
+
+.title{
+	margin-left: 25px;
+	font-family: 'Merriweather', serif;
+}
+
+.img{
+	margin-left:150px;
+}
+
+body{
+	margin:0;
+	width: -250px;
+}
+
